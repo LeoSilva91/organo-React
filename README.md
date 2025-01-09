@@ -1,70 +1,106 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Organo React
 
-## Available Scripts
+## Descrição
+O **Organo React** é uma aplicação desenvolvida em React que permite organizar colaboradores por times. Com uma interface amigável e responsiva, é possível criar cards personalizados para cada colaborador, incluindo informações como nome, cargo, time e imagem representativa.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Funcionalidades
+- Adicionar colaboradores com informações como:
+  - Nome
+  - Cargo
+  - Link da imagem
+  - Time ao qual pertencem
+- Visualizar os colaboradores organizados por times.
+- Interface estilizada e responsiva utilizando CSS e componentes React.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologias Utilizadas
+- **React**: Framework principal para criação da interface.
+- **HTML5** e **CSS3**: Para estrutura e estilização.
+- **JavaScript (ES6)**: Para manipulação de dados e funcionalidades dinâmicas.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como Executar o Projeto
 
-### `npm run build`
+### 1. Clonar o Repositório
+Clone o repositório para sua máquina local:
+```bash
+git clone https://github.com/LeoSilva91/organo-react.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. Navegar para o Diretório do Projeto
+```bash
+cd organo-react
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3. Instalar as Dependências
+Utilize o npm ou yarn para instalar as dependências:
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 4. Iniciar a Aplicação
+Rode o projeto localmente:
+```bash
+npm start
+```
+Acesse a aplicação no navegador através do endereço: [http://localhost:3000](http://localhost:3000).
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Estrutura do Projeto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+organo-react/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Banner/
+│   │   ├── Botao/
+│   │   ├── CampoTexto/
+│   │   ├── Colaborador/
+│   │   ├── Formulario/
+│   │   ├── ListaSuspensa/
+│   │   └── Time/
+│   ├── App.js
+│   ├── index.js
+│   └── index.css
+├── package.json
+└── README.md
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Capturas de Tela
 
-## Learn More
+Adicione aqui uma ou mais imagens da interface da aplicação para facilitar a visualização.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Melhorias Futuras
+- Adicionar funcionalidade para editar colaboradores.
+- Implementar persistência de dados com um banco de dados ou localStorage.
+- Tornar a aplicação responsiva para dispositivos móveis.
+- Permitir exclusão de colaboradores.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Licença
+Este projeto está sob a licença MIT. Sinta-se à vontade para usá-lo e modificá-lo.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contribuições
+Contribuições são bem-vindas! Siga os passos:
+1. Faça um fork do projeto.
+2. Crie uma branch com a nova funcionalidade: `git checkout -b feature/nova-funcionalidade`.
+3. Faça o commit: `git commit -m 'Adiciona nova funcionalidade'`.
+4. Faça o push: `git push origin feature/nova-funcionalidade`.
+5. Abra um Pull Request.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
